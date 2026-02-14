@@ -28,17 +28,11 @@ class HomeScreen extends StatelessWidget {
             height: screenHeight * 0.65,
             padding: const EdgeInsets.all(5),
             decoration: BoxDecoration(
-              color: const Color(0xFF79DCF2),
+              //color: const Color(0xFF79DCF2),
               borderRadius: BorderRadius.circular(100),
             ),
 
-            child: const Align(
-              alignment: Alignment.topLeft,
-              child: Text(
-                "Swirly design",
-                style: TextStyle(fontSize: 18, color: Colors.black),
-              ),
-            ),
+            child: buildImage("assets/doodle1.jpg"),
           ),
           const SizedBox(height: 30),
           const Text(
@@ -92,4 +86,15 @@ class HomeScreen extends StatelessWidget {
       ),
     );
   }
+}
+
+Widget buildImage(String path) {
+  return ClipRRect(
+    borderRadius: BorderRadius.circular(50), // match your container radius
+    child: SizedBox(
+      height: 300,
+      width: double.infinity,
+      child: Image.asset(path, fit: BoxFit.cover),
+    ),
+  );
 }
