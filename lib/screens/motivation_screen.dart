@@ -22,10 +22,10 @@ class _MotivationScreenState extends State<MotivationScreen> {
     try {
       await _player.setLoopMode(LoopMode.one);
       await _player.setAsset('music/lag_ja_gale.mp3');
-      await _player.play();
-      setState(() {
-        isPlaying = true;
-      });
+      // await _player.play();
+      // setState(() {
+      //   isPlaying = true;
+      // });
     } catch (e) {
       print("Audio failed: $e");
     }

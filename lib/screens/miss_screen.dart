@@ -45,7 +45,7 @@ class _MissScreenState extends State<MissScreen> {
       "image": "assets/img5.jpeg",
       "title": "Wifey Moi",
       "caption":
-          "The most premium Moi. Unlocked only when you are a part of her top priotiry list. She will scold you, nag at you, ask you to call your home, remind you to behave in front of parents and insist that you eat on time even though she skips her breakfast 5/7 days. She is sweet but more scary ; )",
+          "The most premium Moi. Unlocked only when you are a part of her top priority list. She will scold you, nag at you, ask you to call your home, remind you to behave in front of parents and insist that you eat on time even though she skips her breakfast 5/7 days. She is sweet but more scary ; )",
     },
   ];
 
