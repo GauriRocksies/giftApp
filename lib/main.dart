@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'screens/bday_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/miss_screen.dart';
+import 'screens/motivation_screen.dart';
 import 'screens/store_screen.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class GiftApp extends StatelessWidget {
       routes: {
         '/': (context) => const HomeScreen(),
         '/store': (context) => const StoreScreen(),
-        // '/motivation': (context) => const MotivationScreen(),
+        '/motivation': (context) => const MotivationScreen(),
         '/bday': (context) => const BdayScreen(),
         // '/lonely': (context) => const LonelyScreen(),
         '/miss': (context) => const MissScreen(),
