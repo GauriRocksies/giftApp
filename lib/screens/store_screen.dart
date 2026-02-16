@@ -91,22 +91,22 @@ class StoreScreen extends StatelessWidget {
                         Navigator.pushNamed(context, '/motivation');
                       },
                     ),
-                    builGiftCard(
-                      context,
-                      "Open me if you are sad :(",
-                      const Color(0xFF79DCF2),
-                      Color(0xFF07565F),
-                      () {
-                        Navigator.pushNamed(context, '/sad');
-                      },
-                    ),
+                    // builGiftCard(
+                    //   context,
+                    //   "Open me if you are sad :(",
+                    //   const Color(0xFF79DCF2),
+                    //   Color(0xFF07565F),
+                    //   () {
+                    //     Navigator.pushNamed(context, '/sad');
+                    //   },
+                    // ),
                     builGiftCard(
                       context,
                       "Open me if Moi pissed you off!",
-                      const Color(0xFF79DCF2),
-                      Color(0xFF07565F),
+                      const Color(0xFFF2B705),
+                      Color(0xFF874308),
                       () {
-                        Navigator.pushNamed(context, '/pissed');
+                        Navigator.pushNamed(context, '/angry');
                       },
                     ),
                     builGiftCard(
@@ -118,15 +118,15 @@ class StoreScreen extends StatelessWidget {
                         Navigator.pushNamed(context, '/miss');
                       },
                     ),
-                    builGiftCard(
-                      context,
-                      "Open me if you are lonely",
-                      const Color(0xFFF2B705),
-                      Color(0xFF874308),
-                      () {
-                        Navigator.pushNamed(context, '/lonely');
-                      },
-                    ),
+                    // builGiftCard(
+                    //   context,
+                    //   "Open me for extra bday bash",
+                    //   const Color(0xFF79DCF2),
+                    //   Color(0xFF07565F),
+                    //   () {
+                    //     Navigator.pushNamed(context, '/birth');
+                    //   },
+                    // ),
                   ],
                 ),
               ),

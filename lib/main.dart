@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:gift_app/screens/birth_screen.dart';
 
+import 'screens/angry_screen.dart';
 import 'screens/bday_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/miss_screen.dart';
@@ -25,9 +27,9 @@ class GiftApp extends StatelessWidget {
         '/store': (context) => const StoreScreen(),
         '/motivation': (context) => const MotivationScreen(),
         '/bday': (context) => const BdayScreen(),
-        // '/lonely': (context) => const LonelyScreen(),
+        //'/birth': (context) => const BirthdayScreen(),
         '/miss': (context) => const MissScreen(),
-        // '/pissed': (context) => const PissedScreen(),
+        '/angry': (context) => const AngryScreen(),
         // '/sad': (context) => const SadScreen(),
       },
       theme: ThemeData(fontFamily: 'Poppins'),
