@@ -9,6 +9,7 @@ class HomeScreen extends StatelessWidget {
     final screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
+      backgroundColor: Color(0xFFBF5A1F),
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
@@ -36,7 +37,7 @@ class HomeScreen extends StatelessWidget {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(60),
                       child: SizedBox(
-                        height: screenHeight * 0.38,
+                        height: screenHeight * 0.45,
                         width: double.infinity,
                         child: Image.asset(
                           "assets/doodle1.jpg",
